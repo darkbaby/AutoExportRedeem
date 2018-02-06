@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TemplateDataSet" targetNamespace="http://tempuri.org/TemplateDataSet.xsd" xmlns:mstns="http://tempuri.org/TemplateDataSet.xsd" xmlns="http://tempuri.org/TemplateDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="TemplateDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="TemplateDataSet" msprop:Generator_UserDSName="TemplateDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="RedeemFCB" msprop:Generator_TableClassName="RedeemFCBDataTable" msprop:Generator_TableVarName="tableRedeemFCB" msprop:Generator_RowChangedName="RedeemFCBRowChanged" msprop:Generator_TablePropName="RedeemFCB" msprop:Generator_RowDeletingName="RedeemFCBRowDeleting" msprop:Generator_RowChangingName="RedeemFCBRowChanging" msprop:Generator_RowEvHandlerName="RedeemFCBRowChangeEventHandler" msprop:Generator_RowDeletedName="RedeemFCBRowDeleted" msprop:Generator_RowClassName="RedeemFCBRow" msprop:Generator_UserTableName="RedeemFCB" msprop:Generator_RowEvArgName="RedeemFCBRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StoreName" msprop:Generator_ColumnVarNameInTable="columnStoreName" msprop:Generator_ColumnPropNameInRow="StoreName" msprop:Generator_ColumnPropNameInTable="StoreNameColumn" msprop:Generator_UserColumnName="StoreName" type="xs:string" minOccurs="0" />
+              <xs:element name="ProdName" msprop:Generator_ColumnVarNameInTable="columnProdName" msprop:Generator_ColumnPropNameInRow="ProdName" msprop:Generator_ColumnPropNameInTable="ProdNameColumn" msprop:Generator_UserColumnName="ProdName" type="xs:string" minOccurs="0" />
+              <xs:element name="RedeemQty" msprop:Generator_ColumnVarNameInTable="columnRedeemQty" msprop:Generator_ColumnPropNameInRow="RedeemQty" msprop:Generator_ColumnPropNameInTable="RedeemQtyColumn" msprop:Generator_UserColumnName="RedeemQty" type="xs:int" minOccurs="0" />
+              <xs:element name="RedeemAmt" msprop:Generator_ColumnVarNameInTable="columnRedeemAmt" msprop:Generator_ColumnPropNameInRow="RedeemAmt" msprop:Generator_ColumnPropNameInTable="RedeemAmtColumn" msprop:Generator_UserColumnName="RedeemAmt" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
